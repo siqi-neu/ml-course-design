@@ -64,7 +64,7 @@ SUB_CSV   = '/kaggle/input/competitions/2026task1/submission-for-task2.csv'
 
 ## 六、说明
 
-- 本仓库为课程设计提交版本，代码中不含任何注释与文档字符串，逻辑与实验时保持一致。
+- 本仓库为课程设计最终提交版本，代码按提交规范整理为可直接运行的脚本（去除冗余注释与调试输出），逻辑与实验运行时完全一致。
 - 任务二为迁移推理方案：使用 HuggingFace 上的预训练表情模型（`abhilash88/face-emotion-detection`），并按竞赛要求剔除 Disgust 类，将 7 类输出映射为 6 类。
 - 任务四的 RLE 编码严格对齐官方 `segmentation_to_csv.py`：1-based、C 序展平、在 512 × 512 尺度上编码。
 
